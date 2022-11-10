@@ -1,7 +1,8 @@
 package questionario1;
 
 /*
- Crie um programa em Java no qual o usuário deve entrar com a operação a ser realizada (soma '+', subtração '-' ou multiplicação '*') e dois números inteiros. O programa deverá utilizar o comando switch para escolher entre as operações e mostrar o resultado da operação.
+ Crie um programa em Java no qual o usuário deve entrar com a operação a ser realizada (soma '+', subtração '-' ou multiplicação '*')
+ e dois números inteiros. O programa deverá utilizar o comando switch para escolher entre as operações e mostrar o resultado da operação.
 
 Saída esperada 1:
 
