@@ -1,7 +1,8 @@
 package questionario1;
 
 /*
- Altere o programa apresentado a seguir para que o usuário entre com o ano e o programa calcule se a data de fevereiro entrada é correta ou não. Para tanto, verifique se um ano é bissexto ou não. Lembrando que em anos bissextos, fevereiro possui 29 dias ao invés de 28.
+ Altere o programa apresentado a seguir para que o usuário entre com o ano e o programa calcule se a data de fevereiro entrada é correta ou não. 
+ Para tanto, verifique se um ano é bissexto ou não. Lembrando que em anos bissextos, fevereiro possui 29 dias ao invés de 28.
 
 Para ser bissexto, o ano deve ser:
 
