@@ -32,13 +32,34 @@ public class atv3 {
 	public static void main(String[] args) {
 		
 		char operacao;
+		int primeiroNumero;
+		int segundoNumero;
+		int resultado;
 		
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Entre com a operação a ser realizada (+, - ou *):");
 		operacao = scan.next().charAt(0);
+		System.out.println("Entre com o primeiro número:");
+		primeiroNumero = scan.nextInt();
+		System.out.println("Entre com o segundo número:");
+		segundoNumero = scan.nextInt();
 		
-		System.out.println(operacao);
+		switch(operacao) {
+		
+		case '+': resultado = (primeiroNumero + segundoNumero);
+			System.out.println("O resultado da operação é: "+resultado);
+				break;
+		case '-': resultado = (primeiroNumero - segundoNumero);
+			System.out.println("O resultado da operação é: "+resultado);
+				break;
+		case '*': resultado = (primeiroNumero * segundoNumero);
+			System.out.println("O resultado da operação é: "+resultado);
+				break;
+			default: System.out.println("Operação Inválida");
+				break;
+		}
+		
 	}
 
 }
